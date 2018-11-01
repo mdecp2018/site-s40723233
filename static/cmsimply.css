@@ -2,8 +2,8 @@
   position: relative;
 }
 header{
-  background: #ccc;
-  padding: 20px;
+  background-image:url("https://www.animatiz.com/wp-content/uploads/2016/05/1980-x-1080.jpg");
+  padding: 30px;
 }
 confmenu
 {
@@ -201,6 +201,7 @@ background-color: white;
 width: 195px;
 }
 body {
+	 background-image:url("https://www.animatiz.com/wp-content/uploads/2016/05/1980-x-1080.jpg");
   margin-bottom: 120px;
 }
-
+color: #8599ff;
