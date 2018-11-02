@@ -26,6 +26,7 @@
 <v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20170709020600.1"><vh>共用</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
+<v t="leo.20181102204954.1"><vh>newHeadline</vh></v>
 <v t="leo.20170709015947.1"><vh>遠端</vh></v>
 <v t="leo.20170709015955.1"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
@@ -103,6 +104,255 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180115115910.1"></t>
 <t tx="leo.20180115142025.1"></t>
 <t tx="leo.20180423103639.1"></t>
+<t tx="leo.20181102204954.1">@color
+@language html
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+      &lt;meta charset="utf-8"&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html" charset="UTF-8" /&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt;
+
+
+  &lt;title&gt;機械設計工程系 2018 Fall 分組網誌&lt;/title&gt;
+
+
+  &lt;meta name="HandheldFriendly" content="True" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;meta name="referrer" content="origin" /&gt;
+  &lt;meta name="generator" content="Pelican" /&gt;
+  &lt;link href="./" rel="canonical" /&gt;
+
+  &lt;!-- Feed --&gt;
+        &lt;link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="機械設計工程系 2018 Fall 分組網誌 Full Atom Feed" /&gt;
+
+  &lt;link href="./theme/css/style.css" type="text/css" rel="stylesheet" /&gt;
+
+  &lt;!-- Code highlight color scheme --&gt;
+      &lt;link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet"&gt;
+
+  
+    &lt;link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet"&gt;
+
+  &lt;!-- Custom fonts --&gt;
+  &lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' /&gt;
+  &lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /&gt;
+
+  &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+  &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+  &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+
+
+
+&lt;!-- Open Graph --&gt;
+&lt;meta property="og:site_name" content="機械設計工程系 2018 Fall 分組網誌"/&gt;
+&lt;meta property="og:type" content="blog"/&gt;
+&lt;meta property="og:title" content="機械設計工程系 2018 Fall 分組網誌"/&gt;
+&lt;meta property="og:description" content="View the blog."/&gt;
+&lt;meta property="og:locale" content="en_US"/&gt;
+&lt;meta property="og:url" content="./"/&gt;
+&lt;meta property="og:image" content="./theme/images/home-bg.jpg"&gt;
+
+&lt;!-- Twitter Card --&gt;
+
+&lt;script type="application/ld+json"&gt;
+{
+  "@context" : "http://schema.org",
+  "@type" : "Website",
+  "name": " 機械設計工程系 2018 Fall 分組網誌 ",
+  "url" : "./",
+  "image": "./theme/images/home-bg.jpg",
+  "description": "View the blog."
+}
+&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shCore.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushJScript.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushJava.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushPython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushSql.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushXml.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushPhp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCpp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCss.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushCSharp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushBash.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../data/syntaxhighlighter/shBrushLua.js"&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "./../data/syntaxhighlighter/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "./../data/syntaxhighlighter/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+&lt;/script&gt;
+
+&lt;!-- for LaTeX equations --&gt;
+&lt;script src="./../data/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;!-- TODO : Body class --&gt;
+&lt;body class="home-template"&gt;
+
+&lt;nav id="menu"&gt;
+  &lt;a class="close-button"&gt;Close&lt;/a&gt;
+  &lt;div class="nav-wrapper"&gt;
+    &lt;p class="nav-label"&gt;Menu&lt;/p&gt;
+    &lt;ul&gt;
+    &lt;!--
+
+              &lt;li role="presentation"&gt;&lt;a href="./pages/about/"&gt;About&lt;/a&gt;&lt;/li&gt;
+      --&gt;
+
+            &lt;li&gt;&lt;a href="./pages/about/index.html"&gt;About&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            
+            &lt;li&gt;&lt;a href="./archives.html"&gt;Archives&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            
+            &lt;li&gt;&lt;a href="./categories.html"&gt;Categories&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            
+            &lt;li&gt;&lt;a href="./tags.html"&gt;Tags&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+    &lt;!-- Page Header --&gt;
+    &lt;!-- Set your background image for this header on the line below. --&gt;
+    &lt;header id="blog-header" class="has-cover"&gt;
+      &lt;div class="inner"&gt;
+        &lt;nav id="navigation"&gt;
+          &lt;span id="menu-button" class="nav-button"&gt;
+            &lt;a class="menu-button"&gt;&lt;i class="ic ic-menu"&gt;&lt;/i&gt; Menu&lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/nav&gt;
+        &lt;h1 class="blog-name"&gt;&lt;a href="./"&gt;機械設計工程系 2018 Fall 分組網誌&lt;/a&gt;&lt;/h1&gt;
+            &lt;div class="blog-cover cover" style="background-image: url('./theme/images/home-bg.jpg')"&gt;
+        
+      &lt;/div&gt;
+    &lt;/header&gt;
+
+
+  &lt;section id="wrapper"&gt;
+    &lt;a class="hidden-close"&gt;&lt;/a&gt;
+
+&lt;section class="search"&gt;
+      &lt;form class="navbar-search" action="./search.html"&gt;
+      &lt;input type="text"  placeholder="Search" name="q" id="tipue_search_input" required&gt;
+    &lt;/form&gt;
+&lt;/section&gt;
+
+
+&lt;div id="index" class="container"&gt;
+  &lt;main class="content" role="main"&gt;
+    &lt;div class="extra-pagination"&gt;
+&lt;nav class="pagination" role="pagination"&gt;
+  &lt;div class="inner"&gt;
+    &lt;span class="pagination-info"&gt;Page 1 / 1&lt;/span&gt;
+    &lt;div class="clear"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+
+        &lt;article class="post"&gt;
+        &lt;div class="inner"&gt;
+            &lt;header class="post-header"&gt;         
+                &lt;h2 class="post-title"&gt;&lt;a href="./2018-Fall-Project-Blog.html" rel="bookmark" title="Permalink to 2018 Fall 分組網誌"&gt;2018 Fall 分組網誌&lt;/a&gt;
+                &lt;/h2&gt;
+                &lt;span class="post-meta"&gt;
+                        &lt;a href="./author/nfumde.html"&gt;Nfumde&lt;/a&gt;
+                     | &lt;time datetime="週一 10 九月 2018"&gt;週一 10 九月 2018&lt;/time&gt;
+                &lt;/span&gt;
+                &lt;div class="clear"&gt;&lt;/div&gt;
+            &lt;/header&gt;
+                &lt;section class="post-excerpt"&gt;
+                    &lt;p&gt;
+                        &lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+
+                    &lt;/p&gt;
+                &lt;/section&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;
+
+&lt;nav class="pagination" role="pagination"&gt;
+  &lt;div class="inner"&gt;
+    &lt;span class="pagination-info"&gt;Page 1 / 1&lt;/span&gt;
+    &lt;div class="clear"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+  &lt;/main&gt;
+&lt;/div&gt;
+      &lt;!-- TODO : Body class --&gt;
+    &lt;div id="body-class" style="display: none;" class=""&gt;&lt;/div&gt;
+
+    &lt;footer id="footer"&gt;
+      &lt;div class="inner"&gt;
+        &lt;section class="credits"&gt;
+
+
+          &lt;span class="credits-theme"&gt;Theme &lt;a href="https://github.com/arulrajnet/attila" rel="nofollow"&gt;Attila&lt;/a&gt;&lt;/span&gt;
+          &lt;span class="credits-software"&gt;Published with &lt;a href="https://github.com/getpelican/pelican" rel="nofollow"&gt;Pelican&lt;/a&gt;&lt;/span&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+  &lt;/section&gt;
+  
+  &lt;script type="text/javascript" src="./theme/js/script.js"&gt;&lt;/script&gt;
+
+ 
+
+
+&lt;/body&gt;
+&lt;/html&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
